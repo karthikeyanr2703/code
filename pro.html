@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro</title>
+    <link rel="stylesheet" href="./pro.css" />
+</head>
+
+<body>
+    <div class="main">
+        <p id="container">Click the button to change the text.</p>
+        <button id="btn" onclick="changeText()">Click Me!</button>
+    </div>
+    <script>
+        const divContainer = document.getElementById("container");
+        let changeText = () => {
+            divContainer.innerText = "Text changed successfully";
+        };
+    </script>
+</body>
+</html>
